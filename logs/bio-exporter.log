@@ -1,0 +1,13 @@
+2018-01-03 14:25:26 [MARKETVALUE] [restartedMain] INFO  org.springframework.boot.StartupInfoLogger - 48 - Starting MarketvalueApplication on BVCH-N03.local with PID 15667 (/Users/brunodinardo/Documents/marketvalue/target/classes started by brunodinardo in /Users/brunodinardo/Documents/marketvalue)
+2018-01-03 14:25:26 [MARKETVALUE] [restartedMain] DEBUG org.springframework.boot.StartupInfoLogger - 51 - Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2018-01-03 14:25:26 [MARKETVALUE] [restartedMain] INFO  org.springframework.boot.SpringApplication - 593 - No active profile set, falling back to default profiles: default
+2018-01-03 14:25:26 [MARKETVALUE] [background-preinit] INFO  org.hibernate.validator.internal.util.Version - 30 - HV000001: Hibernate Validator 5.3.6.Final
+2018-01-03 14:25:27 [MARKETVALUE] [restartedMain] INFO  org.apache.juli.logging.DirectJDKLog - 179 - Starting service [Tomcat]
+2018-01-03 14:25:27 [MARKETVALUE] [restartedMain] INFO  org.apache.juli.logging.DirectJDKLog - 179 - Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-01-03 14:25:27 [MARKETVALUE] [localhost-startStop-1] INFO  org.apache.juli.logging.DirectJDKLog - 179 - Initializing Spring embedded WebApplicationContext
+2018-01-03 14:25:28 [MARKETVALUE] [pool-1-thread-1] TRACE com.cryptocurrency.marketvalue.scheduled.ScheduledRunner - 15 - [getMarketValues] Start
+2018-01-03 14:25:28 [MARKETVALUE] [pool-1-thread-1] TRACE com.cryptocurrency.marketvalue.scheduled.ScheduledRunner - 17 - [getMarketValues] End
+2018-01-03 14:25:28 [MARKETVALUE] [restartedMain] INFO  org.apache.juli.logging.DirectJDKLog - 179 - Initializing ProtocolHandler ["http-nio-8080"]
+2018-01-03 14:25:28 [MARKETVALUE] [restartedMain] INFO  org.apache.juli.logging.DirectJDKLog - 179 - Starting ProtocolHandler ["http-nio-8080"]
+2018-01-03 14:25:28 [MARKETVALUE] [restartedMain] INFO  org.apache.juli.logging.DirectJDKLog - 179 - Using a shared selector for servlet write/read
+2018-01-03 14:25:28 [MARKETVALUE] [restartedMain] INFO  org.springframework.boot.StartupInfoLogger - 57 - Started MarketvalueApplication in 2.944 seconds (JVM running for 3.438)

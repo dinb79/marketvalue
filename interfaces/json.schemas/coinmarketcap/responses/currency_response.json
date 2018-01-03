@@ -1,0 +1,120 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "definitions": {},
+  "id": "http://example.com/example.json",
+  "type": "array",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "id": {
+          "id": "/properties/_id",
+          "description": "Instance id.",
+          "type": "string"
+        },
+        "name": {
+          "id": "/properties/name",
+          "description": "Currency name",
+          "type": "string"
+        },
+        "symbol": {
+          "id": "/properties/symbol",
+          "description": "Currency symbol",
+          "type": "string"
+        },
+        "rank": {
+          "id": "/properties/rank",
+          "description": "Ranking position",
+          "type": "string"
+        },
+        "price_usd": {
+          "id": "/properties/price_usd",
+          "description": "Price in usd",
+          "type": "string"
+        },
+        "price_btc": {
+          "id": "/properties/price_btc",
+          "description": "Price in btc",
+          "type": "string"
+        },
+        "24h_volume_usd": {
+          "id": "/properties/24h_volume_usd",
+          "description": "24h volume in usd",
+          "type": "string"
+        },
+        "market_cap_usd": {
+          "id": "/properties/market_cap_usd",
+          "description": "Market cap in usd",
+          "type": "string"
+        },
+        "available_supply": {
+          "id": "/properties/available_supply",
+          "description": "Available supply",
+          "type": "string"
+        },
+        "total_supply": {
+          "id": "/properties/total_supply",
+          "description": "Total supply",
+          "type": "string"
+        },
+        "max_supply": {
+          "id": "/properties/max_supply",
+          "description": "Maximum supply",
+          "type": "string"
+        },
+        "percent_change_1h": {
+          "id": "/properties/percent_change_1h",
+          "description": "Percent change over last 1 hour",
+          "type": "string"
+        },
+        "percent_change_24h": {
+          "id": "/properties/percent_change_24h",
+          "description": "Percent change over last 24 hours",
+          "type": "string"
+        },
+        "percent_change_7d": {
+          "id": "/properties/percent_change_7d",
+          "description": "Percent change over last 7 days",
+          "type": "string"
+        },
+        "last_updated": {
+          "id": "/properties/last_updated",
+          "description": "Last updated expressed as epoch time",
+          "type": "string"
+        },
+        "price_eur": {
+          "id": "/properties/price_eur",
+          "description": "Price in eur",
+          "type": "string"
+        },
+        "24h_volume_eur": {
+          "id": "/properties/24h_volume_eur",
+          "description": "24h volume in eur",
+          "type": "string"
+        },
+        "market_cap_eur": {
+          "id": "/properties/market_cap_eur",
+          "description": "Market cap in eur",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "symbol",
+        "rank",
+        "price_usd",
+        "price_btc",
+        "24h_volume_usd",
+        "market_cap_usd",
+        "available_supply",
+        "total_supply",
+        "max_supply",
+        "percent_change_1h",
+        "percent_change_24h",
+        "percent_change_7d",
+        "last_updated"
+      ]
+    }
+  ]
+}
